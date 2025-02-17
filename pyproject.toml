@@ -1,15 +1,15 @@
 [project]
-name = "deepseek"
-description = "About DeepSeek Chat API\nGo here to register and get the api-key [a/https://platform.deepseek.com/](https://platform.deepseek.com/) Then enter api_key in config.json"
+name = "Easy-AI"
+description = "About Ai Chat API"
 version = "1.0.0"
 license = {file = "LICENSE"}
 dependencies = ["openai>=1.0.0"]
 
 [project.urls]
-Repository = "https://github.com/yichengup/Comfyui-Deepseek"
+Repository = "https://github.com/mbaisha/ComfyUI-EasyAI"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
 PublisherId = ""
-DisplayName = "Comfyui-Deepseek"
+DisplayName = "ComfyUI-EasyAI"
 Icon = ""

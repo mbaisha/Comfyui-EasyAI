@@ -1,18 +1,12 @@
-from .deepseek import DeepseekNode
-from .deepseek import DeepseekAdvancedNode
-from .deepseek import DeepseekReasonerNode
+from .easychat import AIPromptGenerator
 
 # 在模块级别定义这些映射
 NODE_CLASS_MAPPINGS = {
-    "DeepseekNode": DeepseekNode,
-    "DeepseekAdvancedNode": DeepseekAdvancedNode,
-    "DeepseekReasonerNode": DeepseekReasonerNode
+    "AIPromptGenerator": AIPromptGenerator
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "DeepseekNode": "Deepseek Chat",
-    "DeepseekAdvancedNode": "Deepseek Chat Advanced",
-    "DeepseekReasonerNode": "Deepseek Reasoner"
+    "AIPromptGenerator": "AI Prompt Generator"
 }
 
 # 确保这些变量可以被ComfyUI导入
